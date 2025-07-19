@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahima Gupta | Home</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9fb;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 0;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links .active {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 60px 0;
+  height:58vh;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+}
+
+.hero .highlight {
+  color: #ffe100;
+}
+
+.btn {
+  background: #fff;
+  color: #0072ff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section, .page {
+  padding: 50px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skills-grid span {
+  background: #dff9fb;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.project {
+  background: #dfe6e9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+footer {
+  bottom:0px;
+  width: 100%;
+  position:relative;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Mahima Gupta</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container center">
+      <h2>Hello, I'm <span class="highlight">Mahima Gupta</span></h2>
+      <p>Front-End Developer | BCA Student</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mahima Gupta. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
