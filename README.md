@@ -4,7 +4,7 @@ This is a multi-page personal portfolio website built using **HTML, CSS, and Jav
 
 🔗 Live Demo
 
-[Click here to view the live site](https://mahima86298-dev.github.io/Portfolio/)  
+[Click here to view the live site] https://mahima86298-dev.github.io/Portfolio/
 
 
 📁 Features
